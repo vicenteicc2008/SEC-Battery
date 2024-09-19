@@ -2,7 +2,7 @@
 <!-- 
 This driver is designed for the Texas Instrument bq27742-G1 Fuel Gauges found in the Surface Duo (1st Generation) flashed with Microsoft own Firmware. It may work on other devices using the same fuel gauge provided you remove the manufacturer block reading code. -->
 ## [Experimental Driver For Samsung Galaxy S9]  
-> Basd on [SurfaceDuo Battery](https://github.com/woa-project/surfacebattery).  
+> Based on [Hotdog Battery](https://github.com/sunflower2333/HotdogBattery).  
   - This driver enables Windows to get information about both battery packs used in Samsung Galaxy S9. It does not provide charging capabilities.
   - It may not work on other devices. Or even different version of hotdog.
 
