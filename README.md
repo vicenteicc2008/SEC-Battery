@@ -10,7 +10,8 @@ This driver is designed for the Texas Instrument bq27742-G1 Fuel Gauges found in
 
 MIT License
 
-Copyright (c) 2022 WOA Project
+Copyright (c) 2024 WOA Project
+Copyright (c) 2024 woa-starqlte
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
