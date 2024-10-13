@@ -6,26 +6,6 @@ This driver is designed for the Texas Instrument bq27742-G1 Fuel Gauges found in
   - This driver enables Windows to get information about both battery packs used in Samsung Galaxy S9. It does not provide charging capabilities.
   - It may not work on other devices. Or even different version of starqlte.
 
-## ACPI Sample
-
-```asl
-Device(BAT1)
-{
-    Name (_HID, "BQ27541")
-    Name (_UID, 1)
-
-    Name (_DEP, Package(0x1) {
-        \_SB_.I2C9
-    })
-
-    Method (_CRS, 0x0, NotSerialized) {
-        Name (RBUF, ResourceTemplate () {
-            I2CSerialBus(0x55,, 100000, AddressingMode7Bit, "\\_SB.I2C9",,,,)
-        })
-        Return (RBUF)
-    }
-}
-```
 # License
 
 MIT License
