@@ -2,7 +2,7 @@
 
 ## [Experimental Driver For Samsung Galaxy S9]  
 > Based on [Hotdog Battery](https://github.com/sunflower2333/HotdogBattery).  
-  - This driver enables Windows to get information about both battery packs used in Samsung Galaxy S9. It does not provide charging capabilities.
+  - This driver enables Windows to get information about both battery packs used in Samsung Galaxy S9. It does not provide charging capabilities for now.
   - It may not work on other devices. Or even different version of starqlte.
 
 # License
